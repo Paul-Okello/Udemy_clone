@@ -35,6 +35,9 @@ INSTALLED_APPS = [
     'django.contrib.sessions',
     'django.contrib.messages',
     'django.contrib.staticfiles',
+    # My apps
+    'courses',
+    'users',
 ]
 
 MIDDLEWARE = [
@@ -123,3 +126,5 @@ STATIC_ROOT = BASE_DIR / 'staticfiles'
 STATICFILES_DIRS = [
     BASE_DIR / 'static',
 ]
+# Custom user model
+AUTH_USER_MODEL = 'users.User'
