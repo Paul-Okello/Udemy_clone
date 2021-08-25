@@ -38,6 +38,8 @@ INSTALLED_APPS = [
     # My apps
     'courses',
     'users',
+    # Third-party apps
+    'rest_framework',
 ]
 
 MIDDLEWARE = [
