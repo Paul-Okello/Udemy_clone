@@ -1,2 +1,4 @@
 __pycache__
 migrations
+udemy_backend/db.sqlite3
+udemy_backend/env
